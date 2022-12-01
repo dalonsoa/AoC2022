@@ -18,8 +18,8 @@ void main() {
     if (calories != null) {
       currentCalories = currentCalories + calories.toInt();
 
-      // When there's a blank line, check if it is the lasrgest and add it to the
-      // list of all calories
+      // When there's a blank line, check if it is the largest, record the elf
+      // number and add it to the list of all calories
     } else {
       if (currentCalories > mostCalories) {
         mostCaloriesElf = currentElf;
